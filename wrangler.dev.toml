@@ -20,8 +20,8 @@ preview_id = "local-dev-kv-preview"
 directory = "./public"
 binding = "ASSETS"
 
-[triggers]
-crons = ["0 * * * *"]
+#[triggers]
+#crons = ["0 * * * *"]
 
 [vars]
 ENVIRONMENT = "development"
