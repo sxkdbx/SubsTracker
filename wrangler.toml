@@ -19,8 +19,8 @@ directory = "./public"
 binding = "ASSETS"
 
 # 定时任务配置 - 每小时检查一次（UTC）
-[triggers]
-crons = ["0 * * * *"]
+#[triggers]
+#crons = ["0 * * * *"]
 
 # 环境变量（可选，也可以在 Cloudflare Dashboard 中设置）
 [vars]
